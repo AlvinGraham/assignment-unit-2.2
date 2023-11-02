@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// First we define a variable called name and assign it the value of 'Dane' (a string value).
+// We check if name is equal to string value 'Mary'.  If it is equal (strict equal) we console.log 'Hi, Mary!'.  If not
+// we console.log 'How do you do?'.  name is not equal to Mary so we console.log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable secret which is unassigned (value is undefined). We also create a variable named code and assign the 
+// the value 123 (a number).  We check if code is strict equal to 123 and if so assign 'super' to the secret variable  and  
+// double the value of code. We then check if code is greater than 250 and if so assign 'duper' to the variable secret. Since code
+// equals 123, the first comparison assigns 'super' to secret and doubles code to 246.  The second comparison evaluates as false (246 < 250)
+// so secret remains 'super. We then console.log the value of secret which is super.
 
 //CODE
 /*
