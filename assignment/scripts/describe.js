@@ -72,7 +72,7 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // We create variables isStudent assigned true (Boolean), age assigned 34 (number), and zip assigned 55407 (number). We 
-// then test if isStudent is true and zip greater than 80000, isStudent is false or age is less than 30, isStudent === true, in that order,
+// then test if isStudent is true and zip greater than 80000, isStudent is false or age is less than 30, isStudent is true, in that order (with one final else clause) ,
 // and console.log a message based on the evaluation of the conditional.  Since the first two conditiionals evaluate as false and third evalutes
 // as true, we console.log 'Welcome to Prime!'
 
@@ -131,6 +131,10 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne and colorTwo are assigned the incorrect values (they are reversed)
+// Should be 
+// let colorOne = 'blue'; 
+// let colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
