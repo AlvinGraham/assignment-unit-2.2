@@ -166,6 +166,14 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX conditional in if statement checks for less than or equal to and should be checking for greater than or equal to.
+// result output of if and else statements are logically reversed.
+// Should be
+// if(minAge >= age) {
+//  console.log('enter');
+//} else {
+//  console.log('no entry');
+//}
 if(minAge <= age) {
   console.log('no entry');
 } else {
