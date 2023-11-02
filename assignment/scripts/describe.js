@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // the value 123 (a number).  We check if code is strict equal to 123 and if so assign 'super' to the secret variable  and  
 // double the value of code. We then check if code is greater than 250 and if so assign 'duper' to the variable secret. Since code
 // equals 123, the first comparison assigns 'super' to secret and doubles code to 246.  The second comparison evaluates as false (246 < 250)
-// so secret remains 'super. We then console.log the value of secret which is super.
+// so secret remains 'super'. We then console.log the value of secret which is 'super'.
 
 //CODE
 /*
@@ -71,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create variables isStudent assigned true (Boolean), age assigned 34 (number), and zip assigned 55407 (number). We 
+// then test if isStudent is true and zip greater than 80000, isStudent is false or age is less than 30, isStudent === true, in that order,
+// and console.log a message based on the evaluation of the conditional.  Since the first two conditiionals evaluate as false and third evalutes
+// as true, we console.log 'Welcome to Prime!'
 
 //CODE
 /*
